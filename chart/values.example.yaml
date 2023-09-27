@@ -2,7 +2,7 @@ serviceTree:
   landscape: &landscape pichu
   cluster: &cluster opal
 
-tags:
+tags: &tags
   atomi.cloud/landscape: *landscape
   atomi.cloud/cluster: *cluster
 

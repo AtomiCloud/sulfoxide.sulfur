@@ -1,7 +1,7 @@
 {{/*
 Expand the name of the chart.
 */}}
-{{- define "atomi-cert-manager.name" -}}
+{{- define "sulfoxide-sulfur.name" -}}
 {{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" }}
 {{- end }}
 
@@ -10,7 +10,7 @@ Create a default fully qualified app name.
 We truncate at 63 chars because some Kubernetes name fields are limited to this (by the DNS naming spec).
 If release name contains chart name it will be used as a full name.
 */}}
-{{- define "atomi-cert-manager.fullname" -}}
+{{- define "sulfoxide-sulfur.fullname" -}}
 {{- if .Values.fullnameOverride }}
 {{- .Values.fullnameOverride | trunc 63 | trimSuffix "-" }}
 {{- else }}
@@ -26,19 +26,19 @@ If release name contains chart name it will be used as a full name.
 {{/*
 Create chart name and version as used by the chart label.
 */}}
-{{- define "atomi-cert-manager.chart" -}}
+{{- define "sulfoxide-sulfur.chart" -}}
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" }}
 {{- end }}
 
 {{/*
 Common labels
 */}}
-{{- define "atomi-cert-manager.labels" -}}
-helm.sh/chart: {{ include "atomi-cert-manager.chart" . }}
+{{- define "sulfoxide-sulfur.labels" -}}
+helm.sh/chart: {{ include "sulfoxide-sulfur.chart" . }}
 {{- range $k, $v := .Values.serviceTree }}
 "atomi.cloud/{{ $k }}": "{{ $v }}"
 {{- end }}
-{{ include "atomi-cert-manager.selectorLabels" . }}
+{{ include "sulfoxide-sulfur.selectorLabels" . }}
 {{- if .Chart.AppVersion }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
@@ -49,7 +49,7 @@ app.kubernetes.io/managed-by: {{ .Release.Service }}
 Common annotations
 */}}
 {{- define "atomi-metrics-server.annotations" -}}
-helm.sh/chart: {{ include "atomi-cert-manager.chart" . }}
+helm.sh/chart: {{ include "sulfoxide-sulfur.chart" . }}
 {{- range $k, $v := .Values.serviceTree }}
 "atomi.cloud/{{ $k }}": "{{ $v }}"
 {{- end }}
@@ -58,17 +58,17 @@ helm.sh/chart: {{ include "atomi-cert-manager.chart" . }}
 {{/*
 Selector labels
 */}}
-{{- define "atomi-cert-manager.selectorLabels" -}}
-app.kubernetes.io/name: {{ include "atomi-cert-manager.name" . }}
+{{- define "sulfoxide-sulfur.selectorLabels" -}}
+app.kubernetes.io/name: {{ include "sulfoxide-sulfur.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
 
 {{/*
 Create the name of the service account to use
 */}}
-{{- define "atomi-cert-manager.serviceAccountName" -}}
+{{- define "sulfoxide-sulfur.serviceAccountName" -}}
 {{- if .Values.serviceAccount.create }}
-{{- default (include "atomi-cert-manager.fullname" .) .Values.serviceAccount.name }}
+{{- default (include "sulfoxide-sulfur.fullname" .) .Values.serviceAccount.name }}
 {{- else }}
 {{- default "default" .Values.serviceAccount.name }}
 {{- end }}
