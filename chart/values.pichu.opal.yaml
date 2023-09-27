@@ -1,0 +1,76 @@
+serviceTree:
+  landscape: pichu
+  cluster: opal
+
+cert-manager:
+  serviceAccount:
+    annotations:
+      atomi.cloud/landscape: pichu
+      atomi.cloud/cluster: opal
+    labels:
+      atomi.cloud/landscape: pichu
+      atomi.cloud/cluster: opal
+  startupapicheck:
+    jobAnnotations:
+      atomi.cloud/landscape: pichu
+      atomi.cloud/cluster: opal
+    podAnnotations:
+      atomi.cloud/landscape: pichu
+      atomi.cloud/cluster: opal
+    podLabels:
+      atomi.cloud/landscape: pichu
+      atomi.cloud/cluster: opal
+    resources:
+      limits:
+        cpu: 10m
+        memory: 256Mi
+      requests:
+        cpu: 5m
+        memory: 64Mi
+  resources:
+    limits:
+      cpu: 10m
+      memory: 256Mi
+    requests:
+      cpu: 5m
+      memory: 64Mi
+  podLabels:
+    atomi.cloud/landscape: pichu
+    atomi.cloud/cluster: opal
+  podAnnotations:
+    atomi.cloud/landscape: pichu
+    atomi.cloud/cluster: opal
+  cainjector:
+    resources:
+      limits:
+        cpu: 10m
+        memory: 256Mi
+      requests:
+        cpu: 5m
+        memory: 64Mi
+    podAnnotations:
+      atomi.cloud/landscape: pichu
+      atomi.cloud/cluster: opal
+    deploymentAnnotations:
+      atomi.cloud/landscape: pichu
+      atomi.cloud/cluster: opal
+    podLabels:
+      atomi.cloud/landscape: pichu
+      atomi.cloud/cluster: opal
+  webhook:
+    resources:
+      limits:
+        cpu: 10m
+        memory: 256Mi
+      requests:
+        cpu: 5m
+        memory: 64Mi
+    podLabels:
+      atomi.cloud/landscape: pichu
+      atomi.cloud/cluster: opal
+    deploymentAnnotations:
+      atomi.cloud/landscape: pichu
+      atomi.cloud/cluster: opal
+    podAnnotations:
+      atomi.cloud/landscape: pichu
+      atomi.cloud/cluster: opal
