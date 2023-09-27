@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.1.0...v1.1.1) (2023-09-27)
+
+
+### 🐛 Bug Fixes
+
+* chart helper using wrong chart name and missing yaml anchor ([62b5044](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/62b5044e93623e21aef5de07c181c035f2572fa2))
+
 ## [1.1.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.0.1...v1.1.0) (2023-09-27)
 
 
