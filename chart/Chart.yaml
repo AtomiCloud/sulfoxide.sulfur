@@ -1,10 +1,10 @@
 apiVersion: v2
-name: atomi-cert-manager
-description: AtomiCloud Wrapper for Cert Manager
+name: sulfoxide-sulfur
+description: Helm chart to deploy Cert Manager to issue TLS and other certificates in AtomiCloud's Infrastructure
 type: application
 version: 1.0.1
 appVersion: "1.9.1"
 dependencies:
   - name: cert-manager
-    version: v1.12.3
+    version: v1.13.1
     repository: https://charts.jetstack.io

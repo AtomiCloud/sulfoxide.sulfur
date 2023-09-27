@@ -1,14 +1,14 @@
-# atomi-cert-manager
+# sulfoxide-sulfur
 
 ![Version: 1.0.1](https://img.shields.io/badge/Version-1.0.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.9.1](https://img.shields.io/badge/AppVersion-1.9.1-informational?style=flat-square)
 
-AtomiCloud Wrapper for Cert Manager
+Helm chart to deploy Cert Manager to issue TLS and other certificates in AtomiCloud's Infrastructure
 
 ## Requirements
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://charts.jetstack.io | cert-manager | v1.12.3 |
+| https://charts.jetstack.io | cert-manager | v1.13.1 |
 
 ## Values
 

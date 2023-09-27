@@ -4,6 +4,7 @@ env:
   RELEASE_NAME: kyverno
 
 includes:
+  util: tasks/Taskfile.util.yaml
   pichu:opal:
     taskfile: tasks/Taskfile.cluster.yaml
     vars:
@@ -28,3 +29,12 @@ tasks:
     dir: chart
     cmds:
       - helm dependency update
+
+  latest:
+    desc: Get the latest version of Cert Manager
+    cmds:
+      - task: util:latest
+        vars:
+          REPO_NAME: jetstack
+          REPO_URL: https://charts.jetstack.io
+          CHART_NAME: cert-manager
