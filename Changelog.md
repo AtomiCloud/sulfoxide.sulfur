@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.1.1...v1.1.2) (2023-09-28)
+
+
+### 🐛 Bug Fixes
+
+* incorrect Taskfile release name ([3c6632e](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/3c6632e481b6ae890ec18e9f5406c0d3f052caf5))
+* incorrect Taskfile release name ([a644333](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/a644333faabd2a2fcd24c08a84105525c7c04e8c))
+
 ## [1.1.1](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.1.0...v1.1.1) (2023-09-27)
 
 
