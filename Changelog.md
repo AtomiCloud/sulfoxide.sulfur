@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.1.2...v1.1.3) (2023-09-30)
+
+
+### 🐛 Bug Fixes
+
+* change cluster render to cluster template ([5d0dcb7](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/5d0dcb79d774e3f0401c13adcba81c25472019c1))
+
 ## [1.1.2](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.1.1...v1.1.2) (2023-09-28)
 
 
