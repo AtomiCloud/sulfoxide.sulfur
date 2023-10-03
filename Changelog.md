@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.1.3...v1.2.0) (2023-10-03)
+
+
+### 🚀 New Features
+
+* **entei:** initial values.yaml ([e1742c1](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/e1742c194daa1a8f62cbee1f62f8ea5e4e78be6b))
+
 ## [1.1.3](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.1.2...v1.1.3) (2023-09-30)
 
 
