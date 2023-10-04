@@ -1,9 +1,10 @@
 serviceTree:
-  landscape: &landscape pichu
+  landscape: &landscape entei
+  cluster: &cluster opal
 
 tags: &tags
   atomi.cloud/landscape: *landscape
-
+  atomi.cloud/cluster: *cluster
 cert-manager:
   serviceAccount:
     annotations:
