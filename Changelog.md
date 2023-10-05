@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.4.0...v1.4.1) (2023-10-05)
+
+
+### 🐛 Bug Fixes
+
+* remove virtual cluster values ([56ef4d1](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/56ef4d18374824b584abd7a6e7ee83dc8482de4a))
+
 ## [1.4.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.3.1...v1.4.0) (2023-10-05)
 
 
