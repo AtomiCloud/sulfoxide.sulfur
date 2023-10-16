@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.4.1...v1.5.0) (2023-10-16)
+
+
+### 🚀 New Features
+
+* values.yaml for vclusters ([2da94af](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/2da94afee8da2030cfc33ed58bfe6af9b7bdb66a))
+
 ## [1.4.1](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.4.0...v1.4.1) (2023-10-05)
 
 
