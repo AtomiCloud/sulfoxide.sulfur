@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.5.1...v1.5.2) (2023-10-25)
+
+
+### 🐛 Bug Fixes
+
+* prevent sync ([3177a1a](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/3177a1a2c1f7e2c6bc0db75f01f91848e77aa7ab))
+
 ## [1.5.1](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.5.0...v1.5.1) (2023-10-25)
 
 
