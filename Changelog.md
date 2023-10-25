@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.5.0...v1.5.1) (2023-10-25)
+
+
+### 🐛 Bug Fixes
+
+* disable ingress shim ([ff50d90](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/ff50d90cf971138862a55d9aca0aa5e7893ed52e))
+
 ## [1.5.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.4.1...v1.5.0) (2023-10-16)
 
 
