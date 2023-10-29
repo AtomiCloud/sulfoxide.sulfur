@@ -6,6 +6,8 @@ tags: &tags
   atomi.cloud/landscape: *landscape
   atomi.cloud/cluster: *cluster
 cert-manager:
+  extraArgs:
+    - --controllers=issuers,clusterissuers,certificates
   serviceAccount:
     annotations:
       <<: *tags

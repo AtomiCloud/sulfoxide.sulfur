@@ -8,9 +8,6 @@ tags: &tags
 
 
 cert-manager:
-  extraArgs:
-    - --controllers=issuers,clusterissuers,certificates
-
   serviceAccount:
     annotations:
       <<: *tags
