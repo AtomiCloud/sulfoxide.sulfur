@@ -2,7 +2,7 @@ apiVersion: v2
 name: sulfoxide-sulfur
 description: Helm chart to deploy Cert Manager to issue TLS and other certificates in AtomiCloud's Infrastructure
 type: application
-version: 1.5.2
+version: 1.5.3
 appVersion: "1.9.1"
 dependencies:
   - name: cert-manager
