@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.5.3...v1.6.0) (2023-10-30)
+
+
+### 🚀 New Features
+
+* remove auto-issuing from virtual to physical cluster ([0f99fb5](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/0f99fb58de1f19a6c73e79a039bfd0f11f0548da))
+
 ## [1.5.3](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.5.2...v1.5.3) (2023-10-29)
 
 
