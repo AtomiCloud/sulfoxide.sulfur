@@ -1,3 +1,15 @@
+## [1.7.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.6.0...v1.7.0) (2023-11-18)
+
+
+### 📦 Upstreams Changes
+
+* cert manager to 1.13.2 ([07874dc](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/07874dcae623dcf5c27b707cba127ee8afec12cb))
+
+
+### 🚀 New Features
+
+* ruby values ([4554034](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/455403463f6854c994b92e0bed936cd2d148c9d6))
+
 ## [1.6.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.5.3...v1.6.0) (2023-10-30)
 
 
