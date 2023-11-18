@@ -8,7 +8,7 @@ Helm chart to deploy Cert Manager to issue TLS and other certificates in AtomiCl
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://charts.jetstack.io | cert-manager | v1.13.1 |
+| https://charts.jetstack.io | cert-manager | v1.13.2 |
 
 ## Values
 
