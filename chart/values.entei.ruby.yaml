@@ -1,0 +1,66 @@
+serviceTree:
+  landscape: &landscape entei
+  cluster: &cluster ruby
+
+tags: &tags
+  atomi.cloud/landscape: *landscape
+  atomi.cloud/cluster: *cluster
+cert-manager:
+  serviceAccount:
+    annotations:
+      <<: *tags
+    labels:
+      <<: *tags
+  startupapicheck:
+    jobAnnotations:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
+    podLabels:
+      <<: *tags
+    resources:
+      limits:
+        cpu: 10m
+        memory: 256Mi
+      requests:
+        cpu: 5m
+        memory: 64Mi
+  resources:
+    limits:
+      cpu: 10m
+      memory: 256Mi
+    requests:
+      cpu: 5m
+      memory: 64Mi
+  podLabels:
+    <<: *tags
+  podAnnotations:
+    <<: *tags
+  cainjector:
+    resources:
+      limits:
+        cpu: 10m
+        memory: 256Mi
+      requests:
+        cpu: 5m
+        memory: 64Mi
+    podAnnotations:
+      <<: *tags
+    deploymentAnnotations:
+      <<: *tags
+    podLabels:
+      <<: *tags
+  webhook:
+    resources:
+      limits:
+        cpu: 10m
+        memory: 256Mi
+      requests:
+        cpu: 5m
+        memory: 64Mi
+    podLabels:
+      <<: *tags
+    deploymentAnnotations:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
