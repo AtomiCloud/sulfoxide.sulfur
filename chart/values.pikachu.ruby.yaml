@@ -9,7 +9,7 @@ tags: &tags
 
 cert-manager:
   extraArgs:
-    - --controllers=issuers,clusterissuers,certificates
+    - --controllers=issuers,clusterissuers,certificates-metrics,orders,challenges,certificaterequests-issuer-acme,certificaterequests-approver,certificaterequests-issuer-ca,certificaterequests-issuer-selfsigned,certificaterequests-issuer-vault,certificaterequests-issuer-venafi,certificates-trigger,certificates-issuing,certificates-key-manager,certificates-request-manager,certificates-readiness,certificates-revision-manager
   serviceAccount:
     annotations:
       <<: *tags
