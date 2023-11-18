@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.7.0...v1.7.1) (2023-11-18)
+
+
+### 🐛 Bug Fixes
+
+* allow self-signed CA and cert in virtual clusters ([02fee94](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/02fee9492d4a8e74f32d716492a770ed494b9912))
+
 ## [1.7.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.6.0...v1.7.0) (2023-11-18)
 
 
