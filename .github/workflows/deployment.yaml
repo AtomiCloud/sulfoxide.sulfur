@@ -28,4 +28,4 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: nix develop .#releaser -c scripts/ci/release.sh
+        run: nix develop -i .#releaser -c scripts/ci/release.sh

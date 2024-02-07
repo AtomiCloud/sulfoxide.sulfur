@@ -34,6 +34,7 @@ with packages;
   ];
 
   releaser = [
+    git
     sg
   ];
 }
