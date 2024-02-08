@@ -1,3 +1,20 @@
+## [1.8.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.7.1...v1.8.0) (2024-02-08)
+
+
+### 🚀 New Features
+
+* onyx cluster ([a78ff35](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/a78ff35e8bf488bf165380720dc52abb5c472554))
+
+
+### 🐛 Bug Fixes
+
+* pin npm as releaser ([bfb4bde](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/bfb4bde0104211cd4e28b6cd9509db3b23b3b988))
+* releaser ([f7dd491](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/f7dd49198aa2b2f82a59c8a32b0bf45d9951b71b))
+* semantic releaser ([2f538a8](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/2f538a8ee0ca1aa9a0dc70ae717b6c3a56a728f6))
+* upstream flakes ([3085629](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/308562906af7283a5d14e8a9ef3b089eb244895d))
+* use npm releaser ([fe128bf](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/fe128bf81b7ac0552fcec2aa5734f341e347fadb))
+* use pure nix shell for release ([87bda8a](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/87bda8a17b70a24aaf58c5460aa0a27219d600ec))
+
 ## [1.7.1](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.7.0...v1.7.1) (2023-11-18)
 
 
