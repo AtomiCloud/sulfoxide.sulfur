@@ -1,3 +1,10 @@
+## [1.11.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.10.0...v1.11.0) (2024-08-17)
+
+
+### 🚀 New Features
+
+* remove onyx ([e2d99ca](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/e2d99ca3eabe94cf6d9c0b336bc92e9d6f891bf5))
+
 ## [1.10.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.9.0...v1.10.0) (2024-08-11)
 
 
