@@ -1,0 +1,70 @@
+serviceTree:
+  landscape: &landscape raichu
+  cluster: &cluster mica
+
+tags: &tags
+  atomi.cloud/landscape: *landscape
+  atomi.cloud/cluster: *cluster
+
+
+cert-manager:
+  extraArgs:
+    - --controllers=issuers,clusterissuers,certificates-metrics,orders,challenges,certificaterequests-issuer-acme,certificaterequests-approver,certificaterequests-issuer-ca,certificaterequests-issuer-selfsigned,certificaterequests-issuer-vault,certificaterequests-issuer-venafi,certificates-trigger,certificates-issuing,certificates-key-manager,certificates-request-manager,certificates-readiness,certificates-revision-manager
+  serviceAccount:
+    annotations:
+      <<: *tags
+    labels:
+      <<: *tags
+  startupapicheck:
+    jobAnnotations:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
+    podLabels:
+      <<: *tags
+    resources:
+      limits:
+        cpu: 10m
+        memory: 256Mi
+      requests:
+        cpu: 5m
+        memory: 64Mi
+  resources:
+    limits:
+      cpu: 10m
+      memory: 256Mi
+    requests:
+      cpu: 5m
+      memory: 64Mi
+  podLabels:
+    <<: *tags
+  podAnnotations:
+    <<: *tags
+  cainjector:
+    resources:
+      limits:
+        cpu: 10m
+        memory: 256Mi
+      requests:
+        cpu: 5m
+        memory: 64Mi
+    podAnnotations:
+      <<: *tags
+    deploymentAnnotations:
+      <<: *tags
+    podLabels:
+      <<: *tags
+  webhook:
+    resources:
+      limits:
+        cpu: 10m
+        memory: 256Mi
+      requests:
+        cpu: 5m
+        memory: 64Mi
+    podLabels:
+      <<: *tags
+    deploymentAnnotations:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
