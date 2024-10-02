@@ -1,3 +1,10 @@
+## [1.13.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.12.0...v1.13.0) (2024-10-02)
+
+
+### 📦 Upstreams Changes
+
+* **atominix:** ugrading to 28.0.0 ([36c5fd9](https://github.com/AtomiCloud/sulfoxide.sulfur/commit/36c5fd941549c01436c387b65cf3d4a61f9c6c7e))
+
 ## [1.12.0](https://github.com/AtomiCloud/sulfoxide.sulfur/compare/v1.11.0...v1.12.0) (2024-08-28)
 
 
